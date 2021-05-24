@@ -6,8 +6,8 @@ using namespace std;
 
 struct Node
 {
-	vector<char> path;
-	int weight;
+	vector<char> path;        // It store the shortest path from source to destination
+	int weight;               // It contains the total weight of shortest path
 };
 
 class PathFinder
